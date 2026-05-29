@@ -12,3 +12,158 @@ section {
   min-height: 100vh;
   padding: 50px;
 }
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-links a:hover {
+  color: #2563eb;
+}
+#home {
+  background: #f8fafc;
+}
+
+#about {
+  background: #e2e8f0;
+}
+
+#skills {
+  background: #f8fafc;
+}
+
+#projects {
+  background: #e2e8f0;
+}
+
+#experience {
+  background: #f8fafc;
+}
+
+#contact {
+  background: #e2e8f0;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 8%;
+  gap: 50px;
+}
+.hero-content {
+  flex: 1;
+}
+.hero-content h3 {
+  font-size: 1.5rem;
+  color: #64748b;
+}
+.hero-content h1 {
+  font-size: 4rem;
+  margin: 10px 0;
+  color: #0f172a;
+}
+.hero-content h2 {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 600px;
+  color: #475569;
+}
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #2563eb;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: translate(-3px);
+}
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+.hero-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid#2563eb;
+}
+.about {
+  padding: 80px 8%;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.about-content {
+  flex: 1;
+}
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+.about-content p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #475569;
+}
+.about-details {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.detail-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.detail-box h4 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
