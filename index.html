@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -21,6 +25,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -30,21 +35,48 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="hero-content">
-        <h3>Hello, I'm</h3>
+        <p class="hero-tag">👋 Hello, I'm</p>
+
         <h1>Deepak U</h1>
-        <h2>Java Developer</h2>
-        <p>
-          Passionate about Java Backend Development, Spring Boot, Web
-          Technologies and building scalable applications with clean code
-          practices.
+
+        <h2>Java Full Stack Developer</h2>
+
+        <p class="hero-description">
+          Passionate about building scalable backend applications with Spring
+          Boot and creating responsive web experiences using modern frontend
+          technologies.
         </p>
+
+        <div class="availability">
+          <span class="dot"></span>
+          Open to Work
+        </div>
+
         <div class="hero-buttons">
-          <a href="#projects" class="btn">View projects</a>
-          <a href="assets/resume.pdf" class="btn btn-outline" target="_blank"
-            >Download Resume</a
-          >
+          <a href="#projects" class="btn">View Projects</a>
+
+          <a href="assets/resume.pdf" class="btn btn-outline" target="_blank">
+            Download Resume
+          </a>
+
+          <a href="#contact" class="btn"> Contact Me </a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://github.com/deepak-smart-77" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/deepak-umapathy" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="mailto:deepakumapathy07@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
         </div>
       </div>
+
       <div class="hero-image">
         <img src="images/profile.jpeg" alt="Deepak profile" />
       </div>
@@ -57,31 +89,41 @@
           <h2>About me</h2>
           <p>
             I am a final-year Electronics and Communication Engineering student
-            at Jeppiaar Institute of Technology with a strong interest in Java
-            Backend Development and Web Technologies.
+            with a strong passion for Java Full Stack Development. I enjoy
+            designing scalable backend systems using Spring Boot and building
+            responsive, user-friendly web applications.
           </p>
+
           <p>
-            I have hands-on experience building applications using Java, Spring
-            Boot, MySQL, HTML, CSS, and JavaScript. I enjoy solving real-world
-            problems through clean and scalable software solutions.
+            My focus is on writing clean, maintainable code and continuously
+            improving my problem-solving skills through hands-on projects and
+            technical learning. I am actively seeking opportunities where I can
+            contribute, learn, and grow as a software developer.
           </p>
         </div>
         <div class="about-details">
           <div class="detail-box">
-            <h4>Name</h4>
-            <p>Deepak U</p>
+            <i class="fa-solid fa-folder-open"></i>
+            <h3>2+</h3>
+            <p>Projects Completed</p>
           </div>
+
           <div class="detail-box">
-            <h4>Degree</h4>
-            <p>B.E. ECE</p>
+            <i class="fa-solid fa-server"></i>
+            <h3>Java</h3>
+            <p>Backend Focus</p>
           </div>
+
           <div class="detail-box">
-            <h4>College</h4>
-            <p>Jeppiaar Institute of Technology</p>
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Open</h3>
+            <p>To Work</p>
           </div>
+
           <div class="detail-box">
-            <h4>Role</h4>
-            <p>Java Developer</p>
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Quick</h3>
+            <p>Learner</p>
           </div>
         </div>
       </div>
@@ -91,44 +133,63 @@
     <section id="skills" class="skills reveal">
       <h2 class="section-title">Skills</h2>
       <div class="skills-container">
-        <div class="skill-card">
-          <i class="fa-brands fa-java"></i>
-          <h3>Java</h3>
+        <div class="skill-category">
+          <h3>
+            <i class="fa-solid fa-server"></i>
+            Backend Development
+          </h3>
+
+          <ul>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Java
+            </li>
+            <li><i class="fa-solid fa-check"></i>Spring Boot</li>
+            <li><i class="fa-solid fa-check"></i>REST APIs</li>
+            <li><i class="fa-solid fa-check"></i>Spring Security</li>
+            <li><i class="fa-solid fa-check"></i>JWT</li>
+          </ul>
         </div>
 
-        <div class="skill-card">
-          <i class="fa-solid fa-leaf"></i>
-          <h3>Spring Boot</h3>
+        <div class="skill-category">
+          <h3>
+            <i class="fa-solid fa-code"></i>
+            Frontend Development
+          </h3>
+
+          <ul>
+            <li><i class="fa-solid fa-check"></i>HTML5</li>
+            <li><i class="fa-solid fa-check"></i>CSS3</li>
+            <li><i class="fa-solid fa-check"></i>JavaScript</li>
+            <li><i class="fa-solid fa-check"></i>React.js</li>
+          </ul>
         </div>
 
-        <div class="skill-card">
-          <i class="fa-solid fa-database"></i>
-          <h3>MySQL</h3>
+        <div class="skill-category">
+          <h3>
+            <i class="fa-solid fa-database"></i>
+            Database
+          </h3>
+
+          <ul>
+            <li><i class="fa-solid fa-check"></i>MySQL</li>
+            <li><i class="fa-solid fa-check"></i>JPA / Hibernate</li>
+          </ul>
         </div>
 
-        <div class="skill-card">
-          <i class="fa-brands fa-html5"></i>
-          <h3>HTML</h3>
-        </div>
+        <div class="skill-category">
+          <h3>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            Tools
+          </h3>
 
-        <div class="skill-card">
-          <i class="fa-brands fa-css3-alt"></i>
-          <h3>CSS</h3>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-brands fa-js"></i>
-          <h3>JavaScript</h3>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-brands fa-git-alt"></i>
-          <h3>Git</h3>
-        </div>
-
-        <div class="skill-card">
-          <i class="fa-brands fa-github"></i>
-          <h3>GitHub</h3>
+          <ul>
+            <li><i class="fa-solid fa-check"></i>Git</li>
+            <li><i class="fa-solid fa-check"></i>GitHub</li>
+            <li><i class="fa-solid fa-check"></i>Postman</li>
+            <li><i class="fa-solid fa-check"></i>Eclipse</li>
+            <li><i class="fa-solid fa-check"></i>VS Code</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -138,11 +199,38 @@
       <h2 class="section-title">Projects</h2>
       <div class="projects-container">
         <div class="project-card">
-          <h3>Student Management System</h3>
+          <span class="featured-badge">Featured</span>
+          <span class="project-status in-progress"> In Progress </span>
+          <h3>JobConnect – Full Stack Job Portal</h3>
           <p>
-            A full-stack student management application developed using Spring
-            Boot and MySQL. Features include student record management, REST
-            APIs, CRUD operations, and database integration.
+            A full stack job portal application that connects recruiters and
+            candidates through a secure platform. The project includes
+            role-based authentication, job posting, application management, and
+            profile management using a modern Java backend architecture.
+          </p>
+          <div class="tech-stack">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>React</span>
+            <span>Rest API</span>
+            <span>Spring Security</span>
+            <span>MySQL</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/deepak-smart-77/JobConnect"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <span class="project-status completed">Completed</span>
+          <h3>CampusCore – Campus Management System</h3>
+          <p>
+            A web-based campus management system designed to streamline academic
+            and administrative tasks. It enables efficient management of student
+            records, faculty information, attendance, and departmental
+            activities through a centralized platform.
           </p>
           <div class="tech-stack">
             <span>Java</span>
@@ -158,11 +246,36 @@
           </div>
         </div>
         <div class="project-card">
-          <h3>DevFolio WebSite</h3>
+          <span class="project-status in-progress"> In Progress </span>
+          <h3>Event-Driven Notification Service</h3>
           <p>
-            Responsive personal portfolio website built using HTML, CSS, and
-            JavaScript to showcase projects, skills, and experience with modern
-            UI design.
+            A backend microservice that publishes and processes notification
+            events asynchronously using Apache Kafka. The project demonstrates
+            event-driven architecture, message processing, retry handling, and
+            Docker-based deployment.
+          </p>
+          <div class="tech-stack">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Kafka</span>
+            <span>Docker</span>
+            <span>MySQL</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/deepak-smart-77"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <span class="project-status completed">Completed</span>
+          <h3>DevFolio – Personal Portfolio</h3>
+          <p>
+            A responsive personal portfolio website developed to showcase
+            technical skills, projects, and professional experience. Designed
+            with a clean user interface and optimized for desktop and mobile
+            devices.
           </p>
           <div class="tech-stack">
             <span>HTML</span>
@@ -176,6 +289,28 @@
         </div>
       </div>
     </section>
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="education-container">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <div class="education-content">
+            <h3>B.E. Electronics and Communication Engineering</h3>
+
+            <h4>Jeppiaar Institute of Technology</h4>
+
+            <p>2022 – 2026</p>
+
+            <span class="cgpa">CGPA: 7.7</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience reveal">
@@ -183,13 +318,16 @@
 
       <div class="timeline">
         <div class="timeline-item">
-          <h3>Freelance Web Developer</h3>
-          <h4>Self Employed</h4>
+          <h3>Personal Full Stack Projects</h3>
+          <h4>Self-Learning & Project Development</h4>
 
           <p>
-            Developed responsive web projects using HTML, CSS, JavaScript, and
-            modern frontend techniques while focusing on clean UI and user
-            experience.
+            Built multiple full stack applications using Java, Spring Boot,
+            MySQL, and React. Designed RESTful APIs following layered
+            architecture and clean coding principles. Implemented
+            authentication, validation, exception handling, and responsive
+            frontend interfaces. Used Git and GitHub for version control and
+            project management.
           </p>
         </div>
 
@@ -198,8 +336,10 @@
           <h4>Park Industries</h4>
 
           <p>
-            Studied overall company operations, workflows, manufacturing
-            processes, and organizational structure.
+            Completed industrial training by observing manufacturing workflows,
+            quality control processes, and organizational operations. Gained
+            practical exposure to industrial practices, teamwork, and process
+            management in a production environment.
           </p>
         </div>
       </div>
@@ -232,29 +372,32 @@
             <i class="fa-solid fa-location-dot"></i>
             Tamil Nadu, India
           </p>
-          <div class="social-links">
-            <p>
-              <a href="linkedin.com/in/deepak-umapathy" target="_blank">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </p>
-
-            <p>
-              <a href="github.com/deepak-smart-77" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </p>
-          </div>
         </div>
 
-        <form class="contact-form">
-          <input type="text" placeholder="Your Name" />
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/deepakumapathy07@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
 
-          <input type="email" placeholder="Your Email" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://deepak-smart-77.github.io/DevFolio/"
+          />
+          <input type="text" name="name" placeholder="Your Name" required />
 
-          <input type="text" placeholder="Subject" />
+          <input type="email" name="email" placeholder="Your Email" required />
 
-          <textarea rows="6" placeholder="Your Message"></textarea>
+          <input type="text" name="subject" placeholder="Subject" required />
+
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
 
           <button type="submit" class="btn">Send Message</button>
         </form>
@@ -263,7 +406,34 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <p>© 2026 Deepak U | Java Developer</p>
+      <div class="footer-container">
+        <h2>Deepak U</h2>
+
+        <p class="footer-role">Java Full Stack Developer</p>
+
+        <p class="footer-text">
+          Passionate about building scalable backend applications and modern web
+          experiences.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://github.com/deepak-smart-77" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/deepak-umapathy" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="mailto:deepakumapathy07@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="copyright">© 2026 Deepak U. All Rights Reserved.</p>
+      </div>
     </footer>
     <button id="topBtn">↑</button>
     <script src="js/script.js"></script>
